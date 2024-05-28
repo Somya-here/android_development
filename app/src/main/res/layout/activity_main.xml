@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin_page"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="clip_horizontal"
+            android:text="Sign in"
+            android:textColor="#082CF1"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            tools:ignore="HardcodedText,SpUsage" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="#082CF1"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:textColorHint="#082CF1"
+            android:background="@drawable/round"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/email_input"
+            tools:ignore="Autofill,HardcodedText" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColor="#082CF1"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            android:textColorHint="#082CF1"
+            android:background="@drawable/round"
+            android:textSize="20sp"
+            android:padding="15dp"
+            android:inputType="textPassword"
+            android:id="@+id/password_input"
+            tools:ignore="Autofill,HardcodedText" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:layout_marginRight="10dp"
+            android:textColor="#082CF1"
+            android:padding="10dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign in"
+            android:background="@android:color/holo_green_dark"
+            android:gravity="center"
+            android:backgroundTint="#0CBA13"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:id="@+id/sign_up_btn"
+            tools:ignore="HardcodedText" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
